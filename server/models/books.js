@@ -1,3 +1,13 @@
+/*
+*Models*
+
+Filename: models.js
+Student Name: Shawn Perron
+Student ID: 301 218 919
+Assignment: COMP229-Midterm
+Date: 3/01/2022
+ */
+
 import mongoose from 'mongoose';
 const Schema = mongoose.Schema;
 

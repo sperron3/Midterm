@@ -1,3 +1,13 @@
+/*
+*Controllers*
+
+Filename: books.js
+Student Name: Shawn Perron
+Student ID: 301 218 919
+Assignment: COMP229-Midterm
+Date: 3/01/2022
+ */
+
 // define the book model
 import booksModel from '../models/books.js';
 
@@ -49,7 +59,7 @@ export function displayEditPage(req, res, next) {
             console.error(error);
             res.end(error);
         }
-        res.render('index', {title: 'Edit Book', page: 'books/edit', book})
+        res.render('index', {title: 'Book Details', page: 'books/edit', book})
     })
 }
 
