@@ -4,7 +4,9 @@
 Filename: books.js
 Student Name: Shawn Perron
 Student ID: 301 218 919
-Assignment: COMP229-Midterm
+
+COMP 229 SEC 401, Web Application Development
+COMP229-Midterm
 Date: 3/01/2022
  */
 

@@ -4,6 +4,8 @@
 Filename: books.js
 Student Name: Shawn Perron
 Student ID: 301 218 919
+
+COMP 229 SEC 401, Web Application Development
 Assignment: COMP229-Midterm
 Date: 3/01/2022
  */
@@ -26,7 +28,7 @@ export function displayBookList(req, res, next) {
 
 //  GET the Book Details page in order to add a new Book
 export function displayAddPage(req, res, next) {
-    res.render('index', {title: 'Add Book', page: 'books/add', books: {}})
+    res.render('index', {title: 'Add a Book', page: 'books/add', books: {}})
 }
 
 // POST process the Book Details page and create a new Book - CREATE
